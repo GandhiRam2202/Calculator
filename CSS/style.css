@@ -1,0 +1,62 @@
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(../images/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background.jpg);
+}
+
+#calculator {
+    width: 100%;
+    padding: 10%;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    box-shadow: 0 0 10px black;
+    text-align: center;
+    background-color: rgba(0, 110, 255, 0.678);
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0px 3px 5px black;
+}
+
+input {
+    width: 80%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 25px;
+    border: none;
+    background-color: aqua;
+    color: black;
+    text-align: right;
+    height: 40px;
+}
+
+button {
+    background-color: rgb(105, 205, 215);
+    border-radius: 25px;
+    border: none;
+    width: 48px;
+    height: 48px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    font-size: 20px;
+    text-shadow: 0px 0px 5px white;
+    font-weight: bolder;
+    color: brown;
+    box-shadow: 2px 4px 5px black;
+}
+button:hover{
+    background-color: aqua;
+    color:blue;
+}
+
+.result{
+    width:20%;
+    font-size: 20px;
+    text-shadow: 0px 0px 5px white;
+    font-weight: bolder;
+}
